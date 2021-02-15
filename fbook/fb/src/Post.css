@@ -1,0 +1,58 @@
+.post {
+    width: 100%; 
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px black;
+}
+
+.posttop{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
+.postimage > img{
+    width: 100%;
+}
+
+.postavatar{
+    margin-right: 10px;
+}
+
+.postbottom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+}
+
+
+
+.postoption{
+    padding-top: 10px;
+    display: flex;
+    border-top: 1px solid lightgray;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.poption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+
+.poption >h3{
+    margin-left: 10px;
+}
+
+.poption:hover{
+    background-color: rgb(243, 241, 241);
+    border-radius: 10px;
+}

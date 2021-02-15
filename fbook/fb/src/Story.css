@@ -1,0 +1,29 @@
+.story{
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+/* this is for animation make the story a bit bigger when hovering*/
+.story:hover{
+    transform: scale(1.07); 
+}
+
+.storyavatar{
+    margin: 10px;
+    border: 5px soldi lightblue;
+}
+
+.story >h4{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}

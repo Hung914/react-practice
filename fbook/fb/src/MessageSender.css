@@ -1,0 +1,60 @@
+.messageSender{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow:  0px 5px 7px -7px black;
+    width: 100%;
+}
+
+.sendertop{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom:  15px;
+    padding :15px;
+}
+
+.sendertop > form{
+    float: 1px;
+    display: flex;
+}
+
+.sendertop > form > input{
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: rgb(233, 233, 233);
+}
+
+.sendertop >form> button{
+    border: none; 
+    background-color:rgb(34, 61, 214);
+    border-radius: 10px;
+    padding: 0px 10px;
+    color: white;
+}
+
+.senderinput {
+    flex:1;
+}
+
+.senderbottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.option{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: grey;
+    margin: 5px;
+}
+
+.option > h3 {
+    font-size : medium;
+    margin-left: 10px;
+}

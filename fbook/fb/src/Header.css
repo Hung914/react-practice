@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    position:sticky; /*stick the header when scrolling */
+    background-color: white;
+    z-index: 100;
+    top :0;
+    box-shadow: 0px 5px 8px -9px black;
+}
+.leftheader > img {
+    height: 40px;
+    margin: 20px;
+
+}
+.leftheader{
+    display: flex;
+}
+.headerinput{
+    display: flex;
+    align-items: center;/*  make the search box smaller, align the box with icon */
+    padding: 0px 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+    background-color: rgb(240, 240, 240);
+    height: 50px;
+    margin-top: 20px;
+}
+.headerinput > input{
+    border:none;
+    background-color: transparent;
+    outline-width: 0;
+    
+}
+
+
+
+.headeroption > .MuiSvgIcon-root{
+    color: gray;
+}
+.headeroption:hover >.MuiSvgIcon-root{
+    color: rgb(15, 44, 175);
+}
+.headeroption{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.headeroption--active > .MuiSvgIcon-root{
+    color: blue;
+}
+.headeroption--active{
+    border-bottom: 4px solid blue;
+}
+
+
+
+.middleheader {
+    display: flex;
+}
+
+.headerinfo{
+    display: flex;
+    align-items: center;
+}
+.headerinfo >h4{
+    margin-left: 10px;
+}
+.rightheader{
+    display: flex;
+}
